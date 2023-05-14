@@ -74,7 +74,6 @@ export class App extends Component{
       contact.name.toLowerCase().includes(normalizedFilter)
     );
   };
-  
   render() {
   const { filter } = this.state;
 
